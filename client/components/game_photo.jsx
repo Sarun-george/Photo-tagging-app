@@ -1,14 +1,13 @@
+import { useNavigate } from 'react-router'
 import gamePhotoImage from "../src/assests/City Park Festival Find-and-Seek.png";
 
 function GamePhoto() {
 
-    function handleClick() {
-        
-    }
+   const navigate = useNavigate()
 
   return (
     <div>
-      <button className="game-photo-container" onclick={handleClick}>
+      <button className="game-photo-container" onClick={() => navigate("/game")}>
         <div>
           <div className="game-photo">
             <img src={gamePhotoImage} alt="City park festival scene" />

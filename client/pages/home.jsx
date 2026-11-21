@@ -5,6 +5,9 @@ function Home() {
       <div className="home-container">
         <div className="home-header">
           <h1>Welcome to Photo tagging game</h1>
+          <dialog>
+            <p>Rules</p>
+          </dialog>
         </div>
         <hr />
       <div className="home-content">
