@@ -1,4 +1,5 @@
 import gamePhotoImage from "../src/assests/City Park Festival Find-and-Seek.png";
+import GameCharacters from "../components/game_characters";
 
 function Game() {
   return (
@@ -17,7 +18,7 @@ function Game() {
         <div className="main-game-tag">
             <div className="game-tagging">
           <div className="game-characters">
-            {/* character list as components */}
+            <GameCharacters/>
           </div>
           <div className="game-photo-1">
             <img src={gamePhotoImage} alt="City park festival scene" />
