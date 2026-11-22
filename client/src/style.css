@@ -9,6 +9,7 @@
 
 body{
     background-color: #ffc971;
+    font-family: "Chau Philomene One", sans-serif;
 }
 
 hr{
@@ -52,4 +53,36 @@ hr{
     object-fit: cover;
     height: 100%;
     width: 90%;
+}
+
+.game-header{
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.game-photo-1{
+    max-height: 300px;
+    max-width: 400px;
+}
+.game-photo-1 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.game-content{
+    margin-top: 50px;
+}
+
+.game-instructions{
+    text-align: center;
+}
+
+.game-tagging{
+    margin-top: 30px;
+}
+.main-game-tag{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
 }
