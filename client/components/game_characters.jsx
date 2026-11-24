@@ -28,15 +28,13 @@ function GameCharacters() {
     },
   ];
   return (
-    <div>
-      <div className="game-character">
+    <>
         {characters.map((character) => (
           <div className="game-character" key={character.id}>
             <img src={character.image} alt={character.name} />
           </div>
         ))}
-      </div>
-    </div>
+    </>
   );
 }
 

@@ -32,6 +32,7 @@ function Game() {
           </div>
           <div className="game-leaderboard">
             <h3>Leaderboard</h3>
+            <hr className="leaderboard-hr" />
           </div>
         </div>
         </div>
